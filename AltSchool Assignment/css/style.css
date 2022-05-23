@@ -1,0 +1,265 @@
+@import url('https:fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ----- Resetting all default styles ----- */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.hint{
+    color: blueviolet;
+}
+
+a{
+    color: #3f4954;
+}
+
+/* ---- navbar styles ---- */
+.nav{
+    background-color: white;
+    padding: 0 0.2rem;
+    height: 0rem;
+    min-height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav .nav-logo a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-weight: 900;
+}
+
+.nav .user{
+    padding: 0;
+}
+
+.nav .user a{
+    padding: 0 .8rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: #3f4954;
+}
+
+.nav .user .btn{
+    background-color: blueviolet;
+    border: none;
+    padding: .8em 1.2em;
+    border-radius: 20px;
+}
+
+.nav .user .btn a{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ---- Styling header tag ---- */
+header{
+    height: 100vh;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.user_info{
+    flex-basis: 50%;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.user_info .user_name{
+    font-size: 3rem;
+    margin: 10px 0 20px;
+}
+
+.user_image{
+    width: 30%;
+    min-width: 300px;
+}
+
+.user_image img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hero .circle{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(225, 225, 225, 0.9),
+        rgba(225, 225, 225, 0.1)
+    );
+    z-index: -1;    
+}
+
+.circle1{
+    top: 15%;
+    right: 15%;
+    
+}
+
+.circle2{
+    bottom: -15%;
+    left: 0;
+
+}
+
+/* ---- Styling for About Section ---- */
+
+#about{
+    background-color: whitesmoke;
+    padding: 5rem 0;
+}
+
+.heading{
+    font-size: 2.3rem;
+    padding: 0 0 2rem;
+    text-align: center;
+}
+
+/* ---- Goals styles ---- */
+.mission {
+    padding: 0 5rem;
+}
+
+.mission p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* ---- Education and Certificate styles ---- */
+
+.education{
+    padding: 3rem 5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.education h2{
+    margin-bottom: 30;
+}
+
+.education .cert{
+    background-color: white;
+    max-width: 100%;
+    padding: 1.3rem 2rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---- Job Experience styles ---- */
+.experience{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.experience p{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.experience span{
+    font-style: italic;
+}
+
+/* ---- Hobbies styles ---- */
+.hobbies{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    column-gap: 80px;
+}
+
+.hobbies ul li{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/* ---- contact me styles ---- */
+#contact{
+    margin: 2rem 0 3rem;
+    padding: 0 2rem;
+}
+
+#contact h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+input{
+    margin: 8px 0;
+    padding: .5rem 1rem;
+    width: 30%;
+}
+
+textarea{
+    margin: 10px 0;
+    padding: .4rem 1rem;
+}
+
+#contact .btn{
+    margin: 15px 0 0;
+    padding: .8rem 1rem;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    color: grey;
+    padding: 1rem 0;
+    /* height: 10vh; */
+}

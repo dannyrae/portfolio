@@ -1,0 +1,132 @@
+@import url('https:fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ----- Resetting all default styles ----- */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+}
+
+.hint{
+    color: blueviolet;
+}
+
+a{
+    color: #3f4954;
+}
+
+/* ---- navbar styles ---- */
+.nav{
+    background-color: white;
+    padding: 0 0.2rem;
+    height: 0rem;
+    min-height: 10vh;
+    width: 100vw;
+    /* position: fixed; */
+    z-index: 999;
+}
+
+.nav .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav .nav-logo a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-weight: 900;
+}
+
+.nav .user{
+    padding: 0;
+}
+
+.nav .user a{
+    padding: 0 .8rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: #3f4954;
+}
+
+.btn{
+    background-color: blueviolet;
+    border: none;
+    padding: .8em 1.2em;
+    border-radius: 20px;   
+}
+
+.nav .user .btn a{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ---- Styles for sign up ---- */
+
+main{
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 3rem 0;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+main h2{
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+form{
+    padding: 2rem .7rem 0;
+    margin-top: 1.2rem;
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+label{
+    margin-left: 5px;
+}
+
+input{
+    padding: .8rem 2rem;
+    margin: 5px;
+    border: none;
+}
+
+#username{
+    width: 98%;
+}
+
+form .btn{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 15px 0 0;
+}

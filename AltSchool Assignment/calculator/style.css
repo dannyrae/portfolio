@@ -1,0 +1,132 @@
+@import url('https:fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ----- Resetting all default styles ----- */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+}
+
+.hint{
+    color: blueviolet;
+}
+
+a{
+    color: #3f4954;
+}
+
+/* ---- navbar styles ---- */
+.nav{
+    background-color: white;
+    padding: 0 0.2rem;
+    height: 0rem;
+    min-height: 10vh;
+    width: 100vw;
+    /* position: fixed; */
+    z-index: 999;
+}
+
+.nav .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav .nav-logo a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-weight: 900;
+}
+
+.nav .user{
+    padding: 0;
+}
+
+.nav .user a{
+    padding: 0 .8rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: #3f4954;
+}
+
+.btns{
+    background-color: blueviolet;
+    border: none;
+    padding: .8em 1.2em;
+    border-radius: 20px;   
+}
+
+.nav .user .btns a{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#box{
+    max-width: 300px;
+    margin: 150px auto;
+    box-shadow: 0 0 43px 17px rgba(0, 0, 0, 0.1);
+}
+h3{
+    text-align: center;
+    margin-bottom: -3px;
+    margin-top: 5px;
+}
+#display{
+    height: 20px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-weight: bolder;
+    margin: 5px ;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.btn{
+    display: grid;
+    /*border-bottom: 1px solid #999;
+    border-left: 1px solid #999;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #fff;
+}
+.btn > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;*/
+}
+.buttons{
+    border: 0.5px solid #999;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal{
+    background-color: rgb(85, 85, 255);
+    color: #fff;
+}
+.buttons:hover{
+    background-color: #323330;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
